@@ -10,7 +10,11 @@ module.exports = {
     publicPath: '/'
   },
   plugins: [
-    new webpack.optimize.DedupePlugin(),
+    new webpack.optimize.DedupePlugin({
+      'process.env': {
+        NODE_ENV: 'production'
+      }
+    }),
     new webpack.optimize.UglifyJsPlugin({
       minimize: true,
       compress: {
