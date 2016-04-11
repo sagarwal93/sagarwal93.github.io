@@ -5,7 +5,7 @@ module.exports = {
     './src/index.jsx'
   ],
   output: {
-    path: __dirname + '/dist',
+    path: __dirname,
     filename: 'bundle.js',
     publicPath: '/'
   },
@@ -25,7 +25,7 @@ module.exports = {
     loaders: [{
       test: /\.jsx?$/,
       exclude: /node_modules/,
-      loader: 'babel'
+      loaders: ['babel']
     },
     {
       test: /\.css$$/,
