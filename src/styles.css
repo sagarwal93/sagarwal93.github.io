@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+    min-width: 320px;
+    color: #4c4c4c;
+    background-color: #fbfbfb;
+}
+
+button {
+  border: none;
+  padding: 0px;
+  background-color: #fbfbfb;
+  cursor: pointer;
+}
+
+/*
+  Header styles
+*/
+
+#header {
+  height: 75px;
+  display: table;
+  width: 100%;
+}
+
+#header > div {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#header-main {
+  padding: 0 5% 0 5%;
+}
+
+#header-menu-button {
+  height: 24px;
+  width: 24px;
+  background-size: 24px;
+  float: right;
+  margin: -3px 0 0 0;
+}
