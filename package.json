@@ -18,6 +18,10 @@
     "url": "https://github.com/sagarwal93/sagarwal93.github.io/issues"
   },
   "homepage": "https://github.com/sagarwal93/sagarwal93.github.io#readme",
+  "dependencies": {
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1"
+  },
   "devDependencies": {
     "babel-core": "^6.7.6",
     "babel-eslint": "^6.0.2",
@@ -29,8 +33,6 @@
     "eslint-loader": "^1.3.0",
     "eslint-plugin-react": "^4.3.0",
     "file-loader": "^0.8.5",
-    "react": "^15.0.1",
-    "react-dom": "^15.0.1",
     "react-hot-loader": "^1.3.0",
     "react-router": "^2.0.1",
     "style-loader": "^0.13.1",
