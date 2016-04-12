@@ -8,7 +8,7 @@ const Header = React.createClass({
       <div id='header'>
         <div>
           <div id='header-main'>
-            <span>
+            <span id='header-logo'>
               Samarth A.
             </span>
             <button id='header-menu-button'

@@ -9,6 +9,7 @@ html, body {
     margin: 0px;
     color: #4c4c4c;
     background-color: #fbfbfb;
+    min-width: 320px;
 }
 
 button {
@@ -16,6 +17,15 @@ button {
   padding: 0px;
   background-color: #fbfbfb;
   cursor: pointer;
+}
+
+p {
+  margin: 0px;
+}
+
+p.header {
+  padding: 3% 0;
+  font-size: 30px;
 }
 
 /*
@@ -26,6 +36,10 @@ button {
   height: 75px;
   display: table;
   width: 100%;
+}
+
+#header-logo {
+  font-size: 24px;
 }
 
 #header > div {
@@ -42,7 +56,7 @@ button {
   width: 24px;
   background-size: 24px;
   float: right;
-  margin: -3px 0 0 0;
+  margin: 2px 0 0 0;
 }
 
 /*
@@ -51,12 +65,25 @@ button {
 
 #about {
   width: 100%;
+  padding: 0 5%;
 }
 
 #about-image-container {
   text-align: center;
+  padding: 1% 0;
 }
 
 #about-image {
   border-radius: 50%;
+  height: 256px;
+  width: 256px;
+}
+
+#about-desc-container {
+  width: 100%;
+  text-align: center;
+}
+
+.about-desc {
+  margin-bottom: 2.5%;
 }
