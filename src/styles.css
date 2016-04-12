@@ -10,6 +10,8 @@ html, body {
     color: #4c4c4c;
     background-color: #fbfbfb;
     min-width: 320px;
+    height: 100%;
+    width: 100%;
 }
 
 button {
@@ -29,6 +31,21 @@ p.header {
 }
 
 /*
+  Main wrapper styles
+*/
+
+#main, #main-container {
+  height: 100%;
+  width: 100%;
+}
+
+#main-content {
+  padding: 75px 0 0 0;
+  height: 100%;
+  width: 100%;
+}
+
+/*
   Header styles
 */
 
@@ -36,6 +53,7 @@ p.header {
   height: 75px;
   display: table;
   width: 100%;
+  position: absolute;
 }
 
 #header-logo {
@@ -60,11 +78,31 @@ p.header {
 }
 
 /*
+  Footer styles
+*/
+
+#footer {
+  width: 100%;
+  text-align: center;
+  padding: 5%;
+  background-color: #ededed;
+}
+
+.footer-icon {
+  height: 24px;
+  width: 24px;
+  background-size: 24px;
+  display: inline-block;
+  margin: 1%;
+}
+
+/*
   About styles
 */
 
 #about {
   width: 100%;
+  height: 100%;
   padding: 0 5%;
 }
 
@@ -85,5 +123,5 @@ p.header {
 }
 
 .about-desc {
-  margin-bottom: 2.5%;
+  padding-bottom: 2.5%;
 }
