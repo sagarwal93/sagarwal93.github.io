@@ -7,7 +7,6 @@
 html, body {
     font-family: 'Raleway', sans-serif;
     margin: 0px;
-    min-width: 320px;
     color: #4c4c4c;
     background-color: #fbfbfb;
 }
@@ -44,4 +43,20 @@ button {
   background-size: 24px;
   float: right;
   margin: -3px 0 0 0;
+}
+
+/*
+  About styles
+*/
+
+#about {
+  width: 100%;
+}
+
+#about-image-container {
+  text-align: center;
+}
+
+#about-image {
+  border-radius: 50%;
 }

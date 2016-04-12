@@ -6,7 +6,7 @@ const Main = React.createClass({
     return (
       <div>
         <Header />
-        You found me. This page is still in the works. Stay tuned!
+        {this.props.children}
       </div>
     );
   }
