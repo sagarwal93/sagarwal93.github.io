@@ -3,6 +3,7 @@ import React, {PropTypes} from 'react';
 import facebookIcon from './../images/facebookIcon.png';
 import twitterIcon from './../images/twitterIcon.png';
 import instagramIcon from './../images/instagramIcon.png';
+import linkedinIcon from './../images/linkedinIcon.png';
 
 const Footer = React.createClass({
   render () {
@@ -19,7 +20,11 @@ const Footer = React.createClass({
           </a>
           <a className='footer-icon'
             style={{backgroundImage: 'url(' + instagramIcon + ')'}}
-            href='https://www.instagram.com/swagarwal93/'>
+            href='https://www.instagram.com/swagarwal93'>
+          </a>
+          <a className='footer-icon'
+            style={{backgroundImage: 'url(' + linkedinIcon + ')'}}
+            href='https://www.linkedin.com/in/samarth-agarwal-9a456658'>
           </a>
         </div>
         <div>

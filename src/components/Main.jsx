@@ -7,9 +7,7 @@ const Main = React.createClass({
     return (
       <div id='main-container'>
         <Header />
-        <div id='main-content'>
-          {this.props.children}
-        </div>
+        {this.props.children}
         <Footer />
       </div>
     );

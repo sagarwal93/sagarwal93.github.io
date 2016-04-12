@@ -39,12 +39,6 @@ p.header {
   width: 100%;
 }
 
-#main-content {
-  padding: 75px 0 0 0;
-  height: 100%;
-  width: 100%;
-}
-
 /*
   Header styles
 */
@@ -102,9 +96,7 @@ p.header {
 
 #about {
   width: 100%;
-  height: 100%;
-  padding: 0 5%;
-  overflow: scroll;
+  padding: 75px 5% 0 5%;
 }
 
 #about-image-container {
@@ -122,6 +114,7 @@ p.header {
   width: 100%;
   text-align: center;
   padding-bottom: 2.5%;
+  overflow-y: auto;
 }
 
 .about-desc {
