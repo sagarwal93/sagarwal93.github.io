@@ -5,11 +5,15 @@ import cancelIcon from './../images/cancelIcon.png';
 const Menu = React.createClass({
   render () {
     return (
-      <div id='menu'>
+      <div id='menu'
+        style={{
+          display: this.props.docked ? 'none' : 'table'
+        }}>
         <div id='menu-container'>
           <button id='menu-hide-button' style={{
             backgroundImage: 'url(' + cancelIcon + ')'
-          }} />
+          }}
+          onClick={this.props.hideMenu}/>
           <ul id='menu-links'>
             <li> About </li>
             <li> Blog </li>

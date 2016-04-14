@@ -14,7 +14,8 @@ const Header = React.createClass({
             <button id='header-menu-button'
               style={{
                 backgroundImage: 'url(' + menuIcon + ')'
-              }} />
+              }}
+              onClick={this.props.showMenu} />
           </div>
         </div>
       </div>
