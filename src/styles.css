@@ -30,6 +30,12 @@ p.header {
   font-size: 30px;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
 /*
   Main wrapper styles
 */
@@ -69,6 +75,48 @@ p.header {
   background-size: 24px;
   float: right;
   margin: 2px 0 0 0;
+}
+
+/*
+  Menu
+*/
+
+#menu {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.875);
+  top: 0;
+  left: 0;
+  display: table;
+  color: #fff;
+  text-align: center;
+}
+
+#menu-container {
+  display: table-cell;
+  vertical-align: middle;
+  position: relative;
+}
+
+#menu-links {
+  font-size: 30px;
+}
+
+#menu-links > li {
+  padding: 1% 0;
+}
+
+#menu-hide-button {
+  height: 24px;
+  width: 24px;
+  background-size: 24px;
+  background-position: -24px;
+  background-size: 48px 24px;
+  background-color: inherit;
+  position: absolute;
+  top: 25px;
+  right: 5%;
 }
 
 /*
