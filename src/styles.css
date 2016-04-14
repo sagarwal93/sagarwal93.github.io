@@ -5,7 +5,7 @@
 }
 
 *:focus {
-  outline: 0;
+  outline: none;
 }
 
 html, body {
@@ -114,7 +114,6 @@ ul {
 #menu-hide-button {
   height: 24px;
   width: 24px;
-  background-size: 24px;
   background-position: -24px;
   background-size: 48px 24px;
   background-color: inherit;
