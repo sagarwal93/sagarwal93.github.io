@@ -5,7 +5,7 @@ import swagarwal from './../images/swagarwal.png';
 const About = React.createClass({
   render () {
     return (
-      <div id='about'>
+      <div className='main-content'>
         <div id='about-image-container'>
           <img id='about-image'
             src='src/images/swagarwal.png'>

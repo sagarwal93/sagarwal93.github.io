@@ -1,6 +1,9 @@
 import React, {PropTypes} from 'react';
+import {Link} from 'react-router';
 
 import cancelIcon from './../images/cancelIcon.png';
+
+const fastLinks = ['About', 'Blog', 'Projects', 'Resume'];
 
 const Menu = React.createClass({
   render () {
@@ -15,10 +18,15 @@ const Menu = React.createClass({
           }}
           onClick={this.props.hideMenu}/>
           <ul id='menu-links'>
-            <li> About </li>
-            <li> Blog </li>
-            <li> Projects </li>
-            <li> Resume </li>
+            {
+              fastLinks.map((link) => {
+                return <Link to={link.toLowerCase()}
+                  onClick={this.props.hideMenu}
+                  key={link}>
+                    <li className='menu-link'> {link} </li>
+                  </Link>;
+              })
+            }
           </ul>
         </div>
       </div>

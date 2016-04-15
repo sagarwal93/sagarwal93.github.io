@@ -25,13 +25,27 @@ button {
   cursor: pointer;
 }
 
+a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
 p {
   margin: 0px;
 }
 
 p.header {
-  padding: 3% 0;
-  font-size: 30px;
+  padding: 1.5% 0;
+  font-size: 24px;
 }
 
 ul {
@@ -49,6 +63,12 @@ ul {
   width: 100%;
 }
 
+.main-content {
+  width: 100%;
+  padding: 75px 5% 0 5%;
+  text-align: center;
+}
+
 /*
   Header styles
 */
@@ -58,6 +78,7 @@ ul {
   display: table;
   width: 100%;
   position: absolute;
+  min-width: 320px;
 }
 
 #header-logo {
@@ -107,7 +128,7 @@ ul {
   font-size: 30px;
 }
 
-#menu-links > li {
+.menu-link {
   padding: 1% 0;
 }
 
@@ -145,13 +166,7 @@ ul {
   About styles
 */
 
-#about {
-  width: 100%;
-  padding: 75px 5% 0 5%;
-}
-
 #about-image-container {
-  text-align: center;
   padding: 1% 0;
 }
 
@@ -163,13 +178,38 @@ ul {
 
 #about-desc-container {
   width: 100%;
-  text-align: center;
   padding-bottom: 2.5%;
   overflow-y: auto;
 }
 
 .about-desc {
   padding-bottom: 2.5%;
+}
+
+/*
+  Resume styles
+*/
+
+.resume-section {
+  padding-bottom: 2%;
+}
+
+.resume-header {
+  font-size: 22px;
+  padding-bottom: 1%;
+}
+
+.resume-item-container {
+  padding-bottom: 1%;
+}
+
+.resume-item-banner {
+  overflow: auto;
+  padding-bottom: 1%;
+}
+
+.resume-item-note {
+  font-size: 13px;
 }
 
 /* Custom, iPhone Retina */
@@ -181,6 +221,18 @@ ul {
     border-radius: 50%;
     height: 128px;
     width: 128px;
+  }
+
+  /*
+    Resume styles
+  */
+
+  .resume-item-header {
+    font-size: 16px;
+  }
+
+  .resume-item-timeline {
+    font-size: 13px;
   }
 }
 
@@ -199,6 +251,25 @@ ul {
     border-radius: 50%;
     height: 256px;
     width: 256px;
+  }
+
+  /*
+    Resume styles
+  */
+
+  #resume-content {
+      width: 70%;
+      margin: auto;
+  }
+
+  .resume-item-header {
+    float: left;
+    font-size: 16px;
+  }
+
+  .resume-item-timeline {
+    float: right;
+    font-size: 16px;
   }
 }
 
