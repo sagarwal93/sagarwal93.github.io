@@ -172,8 +172,8 @@ ul {
 
 #about-image {
   border-radius: 50%;
-  height: 256px;
-  width: 256px;
+  height: 128px;
+  width: 128px;
 }
 
 #about-desc-container {
@@ -191,7 +191,7 @@ ul {
 */
 
 .resume-section {
-  padding-bottom: 2%;
+  padding-bottom: 2.5%;
 }
 
 .resume-header {
@@ -200,7 +200,7 @@ ul {
 }
 
 .resume-item-container {
-  padding-bottom: 1%;
+  padding-bottom: 2%;
 }
 
 .resume-item-banner {
@@ -208,8 +208,15 @@ ul {
   padding-bottom: 1%;
 }
 
+.resume-item-sub-header {
+  font-style: italic;
+  font-size: 13px;
+  padding-bottom: 1%;
+}
+
 .resume-item-note {
   font-size: 13px;
+  padding-bottom: 0.5%;
 }
 
 /* Custom, iPhone Retina */
@@ -270,6 +277,10 @@ ul {
   .resume-item-timeline {
     float: right;
     font-size: 16px;
+  }
+
+  .resume-item-notes {
+    padding: 0 2.5%;
   }
 }
 

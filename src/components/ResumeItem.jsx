@@ -18,6 +18,11 @@ const ResumeItem = React.createClass({
                 </p>
               </div>
               <div>
+                <p className='resume-item-sub-header'>
+                  {listItem.subHeader}
+                </p>
+              </div>
+              <div className='resume-item-notes'>
                 {
                   listItem.notes.map((note, noteIdx) => {
                     return <p key={noteIdx}
