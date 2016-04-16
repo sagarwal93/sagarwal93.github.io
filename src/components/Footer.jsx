@@ -4,6 +4,7 @@ import facebookIcon from './../images/facebookIcon.png';
 import twitterIcon from './../images/twitterIcon.png';
 import instagramIcon from './../images/instagramIcon.png';
 import linkedinIcon from './../images/linkedinIcon.png';
+import githubIcon from './../images/githubIcon.png';
 
 const Footer = React.createClass({
   render () {
@@ -25,6 +26,10 @@ const Footer = React.createClass({
           <a className='footer-icon'
             style={{backgroundImage: 'url(' + linkedinIcon + ')'}}
             href='https://www.linkedin.com/in/samarth-agarwal-9a456658'>
+          </a>
+          <a className='footer-icon'
+            style={{backgroundImage: 'url(' + githubIcon + ')'}}
+            href='https://github.com/sagarwal93'>
           </a>
         </div>
         <div>
