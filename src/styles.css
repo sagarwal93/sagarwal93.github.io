@@ -219,6 +219,29 @@ ul {
   padding-bottom: 0.5%;
 }
 
+/*
+  Project styles
+*/
+
+.project-section {
+  padding-bottom: 2.5%;
+}
+
+.project-item-note {
+  font-size: 13px;
+  padding-bottom: 0.5%;
+}
+
+.project-item-banner {
+  overflow: auto;
+  padding-bottom: 1%;
+}
+
+.project-item-video {
+  text-decoration: underline;
+  font-size: 13px;
+}
+
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
   /*
@@ -239,6 +262,18 @@ ul {
   }
 
   .resume-item-timeline {
+    font-size: 13px;
+  }
+
+  /*
+    Project styles
+  */
+
+  .project-item-header {
+    font-size: 16px;
+  }
+
+  .project-item-timeline {
     font-size: 13px;
   }
 }
@@ -265,8 +300,8 @@ ul {
   */
 
   #resume-content {
-      width: 70%;
-      margin: auto;
+    width: 70%;
+    margin: auto;
   }
 
   .resume-item-header {
@@ -280,6 +315,29 @@ ul {
   }
 
   .resume-item-notes {
+    padding: 0 2.5%;
+  }
+
+  /*
+    Project Styles
+  */
+
+  #project-content {
+    width: 70%;
+    margin: auto;
+  }
+
+  .project-item-header {
+    float: left;
+    font-size: 16px;
+  }
+
+  .project-item-timeline {
+    float: right;
+    font-size: 16px;
+  }
+
+  .project-item-notes {
     padding: 0 2.5%;
   }
 }

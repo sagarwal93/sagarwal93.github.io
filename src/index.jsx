@@ -5,6 +5,7 @@ import {createHashHistory} from 'history';
 import Main from './components/Main';
 import About from './components/About';
 import Resume from './components/Resume';
+import Projects from './components/Projects';
 
 import './styles.css';
 
@@ -15,6 +16,7 @@ const routes = <Router history={appHistory}>
     <IndexRoute component={About} />
     <Route name='about' path='about' component={About} />
     <Route name='resume' path='resume' component={Resume} />
+    <Route name='projects' path='projects' component={Projects} />
   </Route>
 </Router>;
 
