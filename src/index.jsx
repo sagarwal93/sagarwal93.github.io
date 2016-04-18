@@ -10,7 +10,7 @@ import './styles.css';
 
 const appHistory = useRouterHistory(createHashHistory)({queryKey: false});
 
-const routes = <Router>
+const routes = <Router history={appHistory}>
   <Route name='main' path='/' component={Main}>
     <IndexRoute component={About} />
     <Route name='about' path='about' component={About} />
