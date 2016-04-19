@@ -26,6 +26,11 @@ const Projects = React.createClass({
             timeline='February 2014 - April 2014'
             videoLink='https://vimeo.com/92144677'
             videoTitle='Watch the demo' />
+          <ProjectItem header='Classnote'
+            notes={['Android application to provide a mobile platform for Georgia Tech\'s ' +
+            'course management system', 'Served as an android developer and project manager.']}
+            timeline='August 2013 - May 2014'
+            />
         </div>
       </div>
     );

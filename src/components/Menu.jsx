@@ -3,7 +3,7 @@ import {Link} from 'react-router';
 
 import cancelIcon from './../images/cancelIcon.png';
 
-const fastLinks = ['About', 'Blog', 'Projects', 'Resume'];
+const fastLinks = ['About', 'Projects', 'Resume'];
 
 const Menu = React.createClass({
   render () {
